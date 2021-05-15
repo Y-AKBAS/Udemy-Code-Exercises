@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="AB_Udemy">
+    <property environment="env"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="14"/>
+    <property name="source" value="14"/>
+    <path id="AB_Udemy.classpath">
+        <pathelement location="bin"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.AbsClaChallenge.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.AbstractClasses.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.AbstractClasses2.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.Annotations.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.ArrayDeques.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.ArrayLists.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.ArraysAndComparator.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.Arrays_Exemp.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.ATMMachine_Challange.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.BoundsOfGenerics.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.ByteArrayInputStreams.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.Challange3.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.Challenge1.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.Challenge2.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.ChallengeMenuDriven.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.ChallengOfBari.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.ClassCreation.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.DataIOStream.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.DDL.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.DisplayDigits.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.DML.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.DynamicMethodDispatch.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.EnumExercise.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.Exception1.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.Exception_Challnge.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.GenericClass.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.Generics1.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.HashSets.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.Inheritance.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.InnerClasses.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.InterfaceChallenge.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.Interfaces.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.InterThreadChallenge.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.InterThreadCommunication.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.Intro.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.IO1.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.IO2.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.JDBC_1.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.LambdaExpression.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.LamdaExpression2.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.LamdaExpression3.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.LinkedHashMaps.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.LinkedLists.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.Method_Exemp.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.ObjectIOStream.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.OldDate.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.ParameterisedConstr.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.PipedStreams.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.PreparedStatements.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.PriorityQueues.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.PropertiesClass.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.Reflection.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.RunnableInterface.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.Serialization.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.Singleton.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.StaticBlocks.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.StaticChallenge.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.Static_vs_Final.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.StringMethods.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.Strings.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.StringTokenizers.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.Stud_challenge_117.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.Synchron.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.ThreadMethods.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.Throw_vs_Throws.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.TreeSets.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.Tree_and_HashMap.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.JODA_Date_API.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.JavaTimeClass.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.DateFormatterClass.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.Client.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <path id="run.EchoServer.classpath">
+        <path refid="AB_Udemy.classpath"/>
+        <pathelement location="../../../../../../../Program Files/Java/jdk-15.0.1/lib/sqlite-jdbc-3.34.0.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="AB_Udemy.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="AbsClaChallenge">
+        <java classname="ObjectOriented.AbsClaChallenge" failonerror="true" fork="yes">
+            <classpath refid="run.AbsClaChallenge.classpath"/>
+        </java>
+    </target>
+    <target name="AbstractClasses">
+        <java classname="ObjectOriented.AbstractClasses" failonerror="true" fork="yes">
+            <classpath refid="run.AbstractClasses.classpath"/>
+        </java>
+    </target>
+    <target name="AbstractClasses2">
+        <java classname="ObjectOriented.AbstractClasses2" failonerror="true" fork="yes">
+            <classpath refid="run.AbstractClasses2.classpath"/>
+        </java>
+    </target>
+    <target name="Annotations">
+        <java classname="Javadoc_Lambda.Annotations" failonerror="true" fork="yes">
+            <classpath refid="run.Annotations.classpath"/>
+        </java>
+    </target>
+    <target name="ArrayDeques">
+        <java classname="Collections.ArrayDeques" failonerror="true" fork="yes">
+            <classpath refid="run.ArrayDeques.classpath"/>
+        </java>
+    </target>
+    <target name="ArrayLists">
+        <java classname="Collections.ArrayLists" failonerror="true" fork="yes">
+            <classpath refid="run.ArrayLists.classpath"/>
+        </java>
+    </target>
+    <target name="ArraysAndComparator">
+        <java classname="Collections.ArraysAndComparator" failonerror="true" fork="yes">
+            <classpath refid="run.ArraysAndComparator.classpath"/>
+        </java>
+    </target>
+    <target name="Arrays_Exemp">
+        <java classname="Excersie.Arrays_Exemp" failonerror="true" fork="yes">
+            <classpath refid="run.Arrays_Exemp.classpath"/>
+        </java>
+    </target>
+    <target name="ATMMachine_Challange">
+        <java classname="MultiThreading.ATMMachine_Challange" failonerror="true" fork="yes">
+            <classpath refid="run.ATMMachine_Challange.classpath"/>
+        </java>
+    </target>
+    <target name="BoundsOfGenerics">
+        <java classname="JavaGenerics.BoundsOfGenerics" failonerror="true" fork="yes">
+            <classpath refid="run.BoundsOfGenerics.classpath"/>
+        </java>
+    </target>
+    <target name="ByteArrayInputStreams">
+        <java classname="JavaInputOutputStream.ByteArrayInputStreams" failonerror="true" fork="yes">
+            <classpath refid="run.ByteArrayInputStreams.classpath"/>
+        </java>
+    </target>
+    <target name="Challange3">
+        <java classname="JavaInputOutputStream.Challange3" failonerror="true" fork="yes">
+            <classpath refid="run.Challange3.classpath"/>
+        </java>
+    </target>
+    <target name="Challenge1">
+        <java classname="JavaInputOutputStream.Challenge1" failonerror="true" fork="yes">
+            <classpath refid="run.Challenge1.classpath"/>
+        </java>
+    </target>
+    <target name="Challenge2">
+        <java classname="JavaInputOutputStream.Challenge2" failonerror="true" fork="yes">
+            <classpath refid="run.Challenge2.classpath"/>
+        </java>
+    </target>
+    <target name="ChallengeMenuDriven">
+        <java classname="Collections.ChallengeMenuDriven" failonerror="true" fork="yes">
+            <classpath refid="run.ChallengeMenuDriven.classpath"/>
+        </java>
+    </target>
+    <target name="ChallengOfBari">
+        <java classname="MultiThreading.ChallengOfBari" failonerror="true" fork="yes">
+            <classpath refid="run.ChallengOfBari.classpath"/>
+        </java>
+    </target>
+    <target name="ClassCreation">
+        <java classname="ObjectOriented.ClassCreation" failonerror="true" fork="yes">
+            <classpath refid="run.ClassCreation.classpath"/>
+        </java>
+    </target>
+    <target name="DataIOStream">
+        <java classname="JavaInputOutputStream.DataIOStream" failonerror="true" fork="yes">
+            <classpath refid="run.DataIOStream.classpath"/>
+        </java>
+    </target>
+    <target name="DDL">
+        <java classname="JDBC.DDL" failonerror="true" fork="yes">
+            <classpath refid="run.DDL.classpath"/>
+        </java>
+    </target>
+    <target name="DisplayDigits">
+        <java classname="Excersie.DisplayDigits" failonerror="true" fork="yes">
+            <classpath refid="run.DisplayDigits.classpath"/>
+        </java>
+    </target>
+    <target name="DML">
+        <java classname="JDBC.DML" failonerror="true" fork="yes">
+            <classpath refid="run.DML.classpath"/>
+        </java>
+    </target>
+    <target name="DynamicMethodDispatch">
+        <java classname="ObjectOriented.DynamicMethodDispatch" failonerror="true" fork="yes">
+            <classpath refid="run.DynamicMethodDispatch.classpath"/>
+        </java>
+    </target>
+    <target name="EnumExercise">
+        <java classname="Excersie.EnumExercise" failonerror="true" fork="yes">
+            <classpath refid="run.EnumExercise.classpath"/>
+        </java>
+    </target>
+    <target name="Exception1">
+        <java classname="ExceptionHandling.Exception1" failonerror="true" fork="yes">
+            <classpath refid="run.Exception1.classpath"/>
+        </java>
+    </target>
+    <target name="Exception_Challnge">
+        <java classname="ExceptionHandling.Exception_Challnge" failonerror="true" fork="yes">
+            <classpath refid="run.Exception_Challnge.classpath"/>
+        </java>
+    </target>
+    <target name="GenericClass">
+        <java classname="JavaGenerics.GenericClass" failonerror="true" fork="yes">
+            <classpath refid="run.GenericClass.classpath"/>
+        </java>
+    </target>
+    <target name="Generics1">
+        <java classname="JavaGenerics.Generics1" failonerror="true" fork="yes">
+            <classpath refid="run.Generics1.classpath"/>
+        </java>
+    </target>
+    <target name="HashSets">
+        <java classname="Collections.HashSets" failonerror="true" fork="yes">
+            <classpath refid="run.HashSets.classpath"/>
+        </java>
+    </target>
+    <target name="Inheritance">
+        <java classname="ObjectOriented.Inheritance" failonerror="true" fork="yes">
+            <classpath refid="run.Inheritance.classpath"/>
+        </java>
+    </target>
+    <target name="InnerClasses">
+        <java classname="ObjectOriented.InnerClasses" failonerror="true" fork="yes">
+            <classpath refid="run.InnerClasses.classpath"/>
+        </java>
+    </target>
+    <target name="InterfaceChallenge">
+        <java classname="ObjectOriented.InterfaceChallenge" failonerror="true" fork="yes">
+            <classpath refid="run.InterfaceChallenge.classpath"/>
+        </java>
+    </target>
+    <target name="Interfaces">
+        <java classname="ObjectOriented.Interfaces" failonerror="true" fork="yes">
+            <classpath refid="run.Interfaces.classpath"/>
+        </java>
+    </target>
+    <target name="InterThreadChallenge">
+        <java classname="MultiThreading.InterThreadChallenge" failonerror="true" fork="yes">
+            <classpath refid="run.InterThreadChallenge.classpath"/>
+        </java>
+    </target>
+    <target name="InterThreadCommunication">
+        <java classname="MultiThreading.InterThreadCommunication" failonerror="true" fork="yes">
+            <classpath refid="run.InterThreadCommunication.classpath"/>
+        </java>
+    </target>
+    <target name="Intro">
+        <java classname="MultiThreading.Intro" failonerror="true" fork="yes">
+            <classpath refid="run.Intro.classpath"/>
+        </java>
+    </target>
+    <target name="IO1">
+        <java classname="JavaInputOutputStream.IO1" failonerror="true" fork="yes">
+            <classpath refid="run.IO1.classpath"/>
+        </java>
+    </target>
+    <target name="IO2">
+        <java classname="JavaInputOutputStream.IO2" failonerror="true" fork="yes">
+            <classpath refid="run.IO2.classpath"/>
+        </java>
+    </target>
+    <target name="JDBC_1">
+        <java classname="JDBC.JDBC_1" failonerror="true" fork="yes">
+            <classpath refid="run.JDBC_1.classpath"/>
+        </java>
+    </target>
+    <target name="LambdaExpression">
+        <java classname="Excersie.LambdaExpression" failonerror="true" fork="yes">
+            <classpath refid="run.LambdaExpression.classpath"/>
+        </java>
+    </target>
+    <target name="LamdaExpression2">
+        <java classname="Excersie.LamdaExpression2" failonerror="true" fork="yes">
+            <classpath refid="run.LamdaExpression2.classpath"/>
+        </java>
+    </target>
+    <target name="LamdaExpression3">
+        <java classname="Excersie.LamdaExpression3" failonerror="true" fork="yes">
+            <classpath refid="run.LamdaExpression3.classpath"/>
+        </java>
+    </target>
+    <target name="LinkedHashMaps">
+        <java classname="Collections.LinkedHashMaps" failonerror="true" fork="yes">
+            <classpath refid="run.LinkedHashMaps.classpath"/>
+        </java>
+    </target>
+    <target name="LinkedLists">
+        <java classname="Collections.LinkedLists" failonerror="true" fork="yes">
+            <classpath refid="run.LinkedLists.classpath"/>
+        </java>
+    </target>
+    <target name="Method_Exemp">
+        <java classname="Excersie.Method_Exemp" failonerror="true" fork="yes">
+            <classpath refid="run.Method_Exemp.classpath"/>
+        </java>
+    </target>
+    <target name="ObjectIOStream">
+        <java classname="JavaInputOutputStream.ObjectIOStream" failonerror="true" fork="yes">
+            <classpath refid="run.ObjectIOStream.classpath"/>
+        </java>
+    </target>
+    <target name="OldDate">
+        <java classname="DateAndTimeClasses.OldDate" failonerror="true" fork="yes">
+            <classpath refid="run.OldDate.classpath"/>
+        </java>
+    </target>
+    <target name="ParameterisedConstr">
+        <java classname="ObjectOriented.ParameterisedConstr" failonerror="true" fork="yes">
+            <classpath refid="run.ParameterisedConstr.classpath"/>
+        </java>
+    </target>
+    <target name="PipedStreams">
+        <java classname="JavaInputOutputStream.PipedStreams" failonerror="true" fork="yes">
+            <classpath refid="run.PipedStreams.classpath"/>
+        </java>
+    </target>
+    <target name="PreparedStatements">
+        <java classname="JDBC.PreparedStatements" failonerror="true" fork="yes">
+            <classpath refid="run.PreparedStatements.classpath"/>
+        </java>
+    </target>
+    <target name="PriorityQueues">
+        <java classname="Collections.PriorityQueues" failonerror="true" fork="yes">
+            <classpath refid="run.PriorityQueues.classpath"/>
+        </java>
+    </target>
+    <target name="PropertiesClass">
+        <java classname="Collections.PropertiesClass" failonerror="true" fork="yes">
+            <classpath refid="run.PropertiesClass.classpath"/>
+        </java>
+    </target>
+    <target name="Reflection">
+        <java classname="Excersie.Reflection" failonerror="true" fork="yes">
+            <classpath refid="run.Reflection.classpath"/>
+        </java>
+    </target>
+    <target name="RunnableInterface">
+        <java classname="MultiThreading.RunnableInterface" failonerror="true" fork="yes">
+            <classpath refid="run.RunnableInterface.classpath"/>
+        </java>
+    </target>
+    <target name="Serialization">
+        <java classname="JavaInputOutputStream.Serialization" failonerror="true" fork="yes">
+            <classpath refid="run.Serialization.classpath"/>
+        </java>
+    </target>
+    <target name="Singleton">
+        <java classname="ObjectOriented.Singleton" failonerror="true" fork="yes">
+            <classpath refid="run.Singleton.classpath"/>
+        </java>
+    </target>
+    <target name="StaticBlocks">
+        <java classname="ObjectOriented.StaticBlocks" failonerror="true" fork="yes">
+            <classpath refid="run.StaticBlocks.classpath"/>
+        </java>
+    </target>
+    <target name="StaticChallenge">
+        <java classname="ObjectOriented.StaticChallenge" failonerror="true" fork="yes">
+            <classpath refid="run.StaticChallenge.classpath"/>
+        </java>
+    </target>
+    <target name="Static_vs_Final">
+        <java classname="ObjectOriented.Static_vs_Final" failonerror="true" fork="yes">
+            <classpath refid="run.Static_vs_Final.classpath"/>
+        </java>
+    </target>
+    <target name="StringMethods">
+        <java classname="Excersie.StringMethods" failonerror="true" fork="yes">
+            <classpath refid="run.StringMethods.classpath"/>
+        </java>
+    </target>
+    <target name="Strings">
+        <java classname="Excersie.Strings" failonerror="true" fork="yes">
+            <classpath refid="run.Strings.classpath"/>
+        </java>
+    </target>
+    <target name="StringTokenizers">
+        <java classname="Collections.StringTokenizers" failonerror="true" fork="yes">
+            <classpath refid="run.StringTokenizers.classpath"/>
+        </java>
+    </target>
+    <target name="Stud_challenge_117">
+        <java classname="ObjectOriented.Stud_challenge_117" failonerror="true" fork="yes">
+            <classpath refid="run.Stud_challenge_117.classpath"/>
+        </java>
+    </target>
+    <target name="Synchron">
+        <java classname="MultiThreading.Synchron" failonerror="true" fork="yes">
+            <classpath refid="run.Synchron.classpath"/>
+        </java>
+    </target>
+    <target name="ThreadMethods">
+        <java classname="MultiThreading.ThreadMethods" failonerror="true" fork="yes">
+            <classpath refid="run.ThreadMethods.classpath"/>
+        </java>
+    </target>
+    <target name="Throw_vs_Throws">
+        <java classname="ExceptionHandling.Throw_vs_Throws" failonerror="true" fork="yes">
+            <classpath refid="run.Throw_vs_Throws.classpath"/>
+        </java>
+    </target>
+    <target name="TreeSets">
+        <java classname="Collections.TreeSets" failonerror="true" fork="yes">
+            <classpath refid="run.TreeSets.classpath"/>
+        </java>
+    </target>
+    <target name="Tree_and_HashMap">
+        <java classname="Collections.Tree_and_HashMap" failonerror="true" fork="yes">
+            <classpath refid="run.Tree_and_HashMap.classpath"/>
+        </java>
+    </target>
+    <target name="JODA_Date_API">
+        <java classname="DateAndTimeClasses.JODA_Date_API" failonerror="true" fork="yes">
+            <classpath refid="run.JODA_Date_API.classpath"/>
+        </java>
+    </target>
+    <target name="JavaTimeClass">
+        <java classname="DateAndTimeClasses.JavaTimeClass" failonerror="true" fork="yes">
+            <classpath refid="run.JavaTimeClass.classpath"/>
+        </java>
+    </target>
+    <target name="DateFormatterClass">
+        <java classname="DateAndTimeClasses.DateFormatterClass" failonerror="true" fork="yes">
+            <classpath refid="run.DateFormatterClass.classpath"/>
+        </java>
+    </target>
+    <target name="Client">
+        <java classname="NetworkProgramming.Client" failonerror="true" fork="yes">
+            <classpath refid="run.Client.classpath"/>
+        </java>
+    </target>
+    <target name="EchoServer">
+        <java classname="NetworkProgramming.EchoServer" failonerror="true" fork="yes">
+            <classpath refid="run.EchoServer.classpath"/>
+        </java>
+    </target>
+</project>
