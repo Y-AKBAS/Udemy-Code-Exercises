@@ -1,2 +1,5 @@
 ./bin
 *.xml
+./.settings
+./.classpath
+./.project
